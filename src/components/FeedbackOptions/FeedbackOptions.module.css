@@ -1,0 +1,25 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 150px;
+  height: 25px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: transform 0.15s ease-in, background-color 0.05s ease-in;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #91380f;
+}
